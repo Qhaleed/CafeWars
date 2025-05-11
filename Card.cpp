@@ -2,6 +2,8 @@
 #include "Board.h"
 #include <iostream>
 
+// Vibe coded
+
 // Base Card class implementation
 Card::Card(std::string name, std::string description, int manaCost, CardType type)
     : name(name), description(description), manaCost(manaCost), type(type), next(nullptr) {
