@@ -1,0 +1,16 @@
+
+With every change on the code, you will need to recompile everything (build)
+
+
+To compile the game:
+    g++ main.cpp -o game -lSDL2 -lSDL2_image
+
+
+To run the game: 
+    ./game
+
+
+
+make        # To compile
+./game      # To run
+make clean  # To clean up
